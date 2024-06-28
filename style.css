@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  
+  }
+  
+  .body-text {
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+    width:100%;
+    font-family: "Montserrat", sans-serif;
+  }
+  .heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
+  .header-links {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+  }
+  
+  .header-links li {
+    list-style: none;
+  }
+  
+  .header-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+
+  }
+  main{
+    display:flex;
+    min-height:70vh;
+    
+   
+   
+  }
+  .image{
+  flex:8;
+  background-image: url(main.jpg);
+  width:100%;
+  background-size: cover;
+  }
+  .text{
+    flex:4;
+    background-color:#ddd;
+    
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+    padding: 10px 20px;
+    transition:0.2s;
+    width:500px;
+    text-align:center;
+  }
+  h1{
+    color: #e66808;;
+  }
+  
+  input{
+    display:block;
+    width:100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border:1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color:purple;
+    width: 100%;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+  background-color:#e6ffff;
+  min-height: 22vh;
+  display: flex;
+
+}
+.follow{
+  margin-top: 5px;
+  flex:8;
+  text-align: center;
+  
+}
+.icons{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.contact{
+  margin-top: 5px;
+  flex:4;
+  text-align: center;
+ 
+}
+ 
+@media(max-width:600px)
+{
+  main{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+  }
+  
+}
+  
+ 
+     
+
